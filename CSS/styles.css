@@ -14,6 +14,7 @@ body {
 .logo {
   text-decoration: none;
 }
+
 .logo-web { 
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -23,12 +24,21 @@ body {
   letter-spacing: 3%;
 }
 
+.logo-studio-header{
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2E2F42;
+  letter-spacing: 3%;
+}
+
 .logo-studio {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
-  color: #2e2f42;
+  color: #F4F4FD;
   letter-spacing: 3%;
 }
 
@@ -112,6 +122,14 @@ body {
 
 
 /* TEXT */
+.text-h1-OB{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 2%;
+  color: #FFFFFF;
+}
 
 .text-h1 {
   font-family: 'Roboto', sans-serif;
@@ -147,6 +165,14 @@ body {
   color: #434455;
 }
 
+.text-p-footer {
+  font-family: 'Roboto', sans-serif;
+  font-weight: regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #F4F4FD;}
+
 /* BUTTON */
 .button-order {
  font-family: 'Roboto', sans-serif;
@@ -174,4 +200,21 @@ body {
 }
 .button-order:hover {
   background-color: #404bbf;
+}
+
+/* SECTION */
+
+/* hero image */
+.button {
+  background-color: #2E2F42;
+}
+
+/* team card */
+.team-card {
+  background-color: #F4F4FD;
+}
+
+/* footer */
+.footer {
+  background-color: #2E2F42;
 }
